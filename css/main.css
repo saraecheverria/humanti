@@ -73,31 +73,12 @@ nav .mainMenu .closeMenu,
 /*PAGE STYLING*/
 
 /*HOME PAGE STYLING*/
-.grid-container {
-  display: grid;
-  /* grid-template-columns: auto auto auto auto;
+/*EDIT HERE FOR HOME PAGE STYLING*/
+.slogan {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); */
-}
-
-.grid-container h1 {
-  font-family: "Comfortaa";
-  font-size: 80px;
-  color: #0071a4;
-  text-align: center;
-}
-
-.header-message {
-  /* grid-row: 1 / 3;
-  grid-column: 7 / 8; */
-  padding: 50px;
-  border: white 2px solid;
-}
-
-.grid-container p {
-  padding: 50px 30px;
+  transform: translate(-50%, -50%);
 }
 /*END OF HOME PAGE STYLING*/
 
@@ -184,18 +165,6 @@ footer i {
     height: 40px;
     padding: 5px 0 0 5px;
   }
-<<<<<<< HEAD
-  
-
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    height: 80px; 
-    overflow: hidden;
-    background-color: #ffffff;
-   
-=======
 
   nav .mainMenu {
     height: 100vh;
@@ -210,7 +179,6 @@ footer i {
     background-color: #a3e85c;
     transition: top 0.75s ease;
     display: none;
->>>>>>> b3dfaa9c94f4a70eff30c1313307698b45434656
   }
   nav .mainMenu .closeMenu {
     display: block;
@@ -229,34 +197,6 @@ footer i {
   .icons i:hover {
     color: #fff;
   }
-<<<<<<< HEAD
-
-  .logo {
-    position: absolute;
-    width: 250px;
-    height: 50px;
-    top: 10px; 
-    left: 10px; 
-    overflow: hidden;
-  }
-
-
-  .grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%); 
-  }
-
-  h1{ 
-    font-family: 'Comfortaa'; 
-    font-size: 80px; 
-    color: #0071A4;
-    text-align:center; 
-  } 
-=======
   li a:hover:not(.active) {
     color: #fff;
   }
@@ -268,7 +208,6 @@ footer i {
   footer {
     margin-bottom: -510px;
   }
->>>>>>> b3dfaa9c94f4a70eff30c1313307698b45434656
 
   .footer-left,
   .footer-center,
@@ -278,16 +217,18 @@ footer i {
     width: 90%;
     margin: 0 0 40px 0;
   }
-<<<<<<< HEAD
 
-  .slogan{ 
-    position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%); 
-  }
+  /*Page Styling FOR MOBILE*/
 
+  /*EDIT BELOW FOR HOME PAGE MOBILE STYLING*/
+  /*END OF HOME PAGE MOBILE STYLING*/
 
-=======
+  /*EDIT BELOW FOR ABOUT PAGE MOBILE STYLING*/
+  /*END OF ABOUT PAGE MOBILE STYLING*/
+
+  /*EDIT BELOW FOR GET INVOLVED PAGE MOBILE STYLING*/
+  /*END OF GET INVOLVED PAGE MOBILE STYLING*/
+
+  /*EDIT BELOW FOR SEARCH PAGE MOBILE STYLING*/
+  /*END OF SEARCH PAGE MOBILE STYLING*/
 }
->>>>>>> b3dfaa9c94f4a70eff30c1313307698b45434656
