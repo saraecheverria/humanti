@@ -115,21 +115,26 @@ h1:hover {
 }
 
 .btn1 {
+  width: 200px;
+  background-color: #a3e85c;
+  color: #1b6cbb;
+  height: 50px;
   border: none;
   border-radius: 50px;
-  text-decoration: none;
+  box-shadow: 0 8px 32px 0 rgba(61, 61, 61, 0.5);
   cursor: pointer;
-  color: #1b6cbb;
-  padding: 20px 30px;
-  background-color: #a3e85c;
+  margin-bottom: 50px;
+  transition: all 0.1s linear;
   font-family: "Montserrat", sans-serif;
-  font-size: 15px;
-  font-weight: 20px;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 25px;
 }
 
 .btn1:hover {
   background-color: rgb(115, 209, 27);
-  transition: all 0.1s linear;
+  
 }
 
 .container {
@@ -401,21 +406,63 @@ section#tips {
   /* min-height: 800px; */
 }
 .about-header {
-  font-family: "Comfortaa", sans-serif;
-  font-size: 2rem;
+  text-align: left;
+  font-family: "Comfortaa";
+  font-size: 60px;
+  color: #1b6cbb;
+  text-decoration: underline 5px #72d11c;
+  text-underline-position: under;
+  line-height: 75px;
+  transition: all 0.1s linear;
 }
+
+.about-header:hover {
+  font-size: 65px;
+  color: #1b6cbb;
+}
+
 .about-text {
   font-family: "Montserrat", sans-serif;
-  line-height: 30px;
-  padding-top: 20px;
-  padding-left: 20%;
-  padding-right: 20%;
+  font-size: 18px;
+  text-align: left;
+  letter-spacing: 1px;
+  line-height: 25px;
 }
 .goal-wrapper {
-  text-align: center;
-  padding-left: 50px;
-  padding-right: 50px;
+  width: 621px;
+  height: 452px;
+  padding: 50px;
+  margin-left:50px; 
+  border: 2px solid  #72d11c; 
+  border-radius: 50px; 
+  box-shadow: 0 8px 32px 0 rgba(61, 61, 61, 0.37);
+
 }
+
+.goal-wrapper img{ 
+width:161px; 
+height: 137px; 
+margin-left: 400px; 
+position:absolute;  
+}
+
+.goal-wrapper img:hover{ 
+  width:171px; 
+  height: 147px; 
+  margin-left: 400px; 
+  position:absolute;  
+  }
+
+
+
+.creators-text{ 
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
 .creators-grid {
   display: grid;
   width: 100%;
@@ -439,6 +486,10 @@ section#tips {
 }
 .creator > p {
   font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 25px;
 }
 .profile-pic {
   width: 150px;
@@ -446,6 +497,18 @@ section#tips {
   border-radius: 150px;
   box-shadow: 3px 6px 10px #adadad;
   margin: 15px;
+  border: 2px solid #72d11c; 
+  transition: all 0.1s linear;
+
+}
+
+.profile-pic:hover {
+  width: 180px;
+  height: 180px;
+  border-radius: 150px;
+  box-shadow: 3px 6px 10px #adadad;
+  margin: 15px;
+  border: 2px solid #72d11c; 
 }
 
 /*END OF ABOUT PAGE STYLING*/
@@ -511,11 +574,15 @@ form {
   height: 50px;
   border: none;
   border-radius: 50px;
-  font-size: 24px;
   box-shadow: 0 8px 32px 0 rgba(61, 61, 61, 0.5);
   cursor: pointer;
   margin-bottom: 50px;
   transition: all 0.1s linear;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 25px;
 }
 .inputs > button:hover {
   background-color: rgb(115, 209, 27);

@@ -46,16 +46,4 @@ function showDivs(n) {
      x[i].style.display = "none";  
   }
   x[slideIndex-1].style.display = "block";  
-
-//scroll to bottom button
-var elmnt = document.getElementById("two");
-function scrollToBottom() {
-  elmnt.scrollIntoView(false); // Bottom
-  scroll({
-    scrollToBottom: offsetTop,
-    behavior: "smooth"
-  });
-}
-
-
-}
+}; 
