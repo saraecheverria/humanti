@@ -10,7 +10,7 @@
   width: 100%;
   height: 100%;
   /* CSS Smooth Scroll */
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
 }
@@ -134,7 +134,6 @@ h1:hover {
 
 .btn1:hover {
   background-color: rgb(115, 209, 27);
-  
 }
 
 .container {
@@ -429,33 +428,23 @@ section#tips {
   line-height: 25px;
 }
 .goal-wrapper {
-  width: 621px;
-  height: 452px;
-  padding: 50px;
-  margin-left:50px; 
-  border: 2px solid  #72d11c; 
-  border-radius: 50px; 
+  width: 40%;
+  height: 100%;
+  padding: 40px;
+  margin-left: 50px;
+  border: 2px solid #72d11c;
+  border-radius: 50px;
   box-shadow: 0 8px 32px 0 rgba(61, 61, 61, 0.37);
-
 }
 
-.goal-wrapper img{ 
-width:161px; 
-height: 137px; 
-margin-left: 400px; 
-position:absolute;  
+.goal-wrapper img {
+  width: 161px;
+  height: 137px;
+  margin-left: 400px;
+  position: absolute;
 }
 
-.goal-wrapper img:hover{ 
-  width:171px; 
-  height: 147px; 
-  margin-left: 400px; 
-  position:absolute;  
-  }
-
-
-
-.creators-text{ 
+.creators-text {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
   text-align: center;
@@ -470,9 +459,7 @@ position:absolute;
   grid-template-rows: repeat(2, 1fr);
   align-items: center;
   padding-bottom: 50px;
-
 }
-
 
 .creators-title {
   grid-column: 1 / 6;
@@ -482,11 +469,8 @@ position:absolute;
 .creator1 {
   text-align: center;
   padding-top: 1rem;
-  grid-column: 1; 
-  margin-left: 90px; 
- 
-
-  
+  grid-column: 1;
+  margin-left: 90px;
 }
 h3 {
   font-family: "Comfortaa", sans-serif;
@@ -511,10 +495,8 @@ h3 {
 .creator2 {
   text-align: center;
   padding-top: 1rem;
-  margin-left: 180px; 
-  grid-column: 2; 
-
-  
+  margin-left: 180px;
+  grid-column: 2;
 }
 
 .creator2 > p {
@@ -528,8 +510,8 @@ h3 {
 .creator3 {
   text-align: center;
   padding-top: 1rem;
-  margin-left: 180px; 
-  grid-column: 3; 
+  margin-left: 180px;
+  grid-column: 3;
 }
 
 .creator3 > p {
@@ -543,9 +525,8 @@ h3 {
 .creator4 {
   text-align: center;
   padding-top: 1rem;
-  margin-left: 180px; 
-  grid-column: 4; 
-  
+  margin-left: 180px;
+  grid-column: 4;
 }
 
 .creator4 > p {
@@ -562,12 +543,9 @@ h3 {
   border-radius: 150px;
   box-shadow: 3px 6px 10px #adadad;
   margin: 15px;
-  border: 2px solid #72d11c; 
+  border: 2px solid #72d11c;
   transition: all 0.1s linear;
-
 }
-
-
 
 /*END OF ABOUT PAGE STYLING*/
 
