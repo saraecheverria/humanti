@@ -470,17 +470,25 @@ position:absolute;
   grid-template-rows: repeat(2, 1fr);
   align-items: center;
   padding-bottom: 50px;
+
 }
+
+
 .creators-title {
   grid-column: 1 / 6;
   width: 100%;
   text-align: center;
 }
-.creator {
+.creator1 {
   text-align: center;
   padding-top: 1rem;
+  grid-column: 1; 
+  margin-left: 90px; 
+ 
+
+  
 }
-.creator > h3 {
+h3 {
   font-family: "Comfortaa", sans-serif;
   font-size: 1.3rem;
 }
@@ -491,6 +499,63 @@ position:absolute;
   letter-spacing: 1px;
   line-height: 25px;
 }
+
+.creator1 > p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+.creator2 {
+  text-align: center;
+  padding-top: 1rem;
+  margin-left: 180px; 
+  grid-column: 2; 
+
+  
+}
+
+.creator2 > p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+.creator3 {
+  text-align: center;
+  padding-top: 1rem;
+  margin-left: 180px; 
+  grid-column: 3; 
+}
+
+.creator3 > p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+.creator4 {
+  text-align: center;
+  padding-top: 1rem;
+  margin-left: 180px; 
+  grid-column: 4; 
+  
+}
+
+.creator4 > p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
 .profile-pic {
   width: 150px;
   height: 150px;
@@ -502,14 +567,7 @@ position:absolute;
 
 }
 
-.profile-pic:hover {
-  width: 180px;
-  height: 180px;
-  border-radius: 150px;
-  box-shadow: 3px 6px 10px #adadad;
-  margin: 15px;
-  border: 2px solid #72d11c; 
-}
+
 
 /*END OF ABOUT PAGE STYLING*/
 
@@ -517,7 +575,7 @@ position:absolute;
 /*Sign up styling*/
 .bg-involved {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/imgs/signup_bg.jpg") no-repeat center;
+    url("../imgs/signup_bg.jpg") no-repeat center;
   background-size: cover;
   width: 100%;
   height: 960px;
